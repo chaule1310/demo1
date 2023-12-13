@@ -7,7 +7,7 @@ public class MainTest {
 
         ApplicationContext context;
         context = new ClassPathXmlApplicationContext("beans.xml");
-        helloworld helloworld=(helloword.helloworld) context.getBean("hellobean");
+        helloWorld helloworld=(helloword.helloWorld) context.getBean("hellobean");
         helloworld.printHello();
     }
 }

@@ -1,6 +1,6 @@
 package helloword;
 
-public class helloworld {
+public class helloWorld {
     private String name;
 
     public String getName() {
