@@ -6,16 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0f7f1a3f-4836-4c5d-aaca-a7860a2027af" name="Changes" comment="commit baitapday1">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/AccountRepsitory2Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/AccountService2Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xmlConfig/MainAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/annotationbasedconfigurationxml/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,27 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MainAccount.executor": "Run",
-    "Application.MainTest.executor": "Run",
-    "Application.annotationbasedconfiguration.MainTest.executor": "Run",
-    "Application.main.executor": "Run",
-    "Application.xmlConfig.MainTest.executor": "Run",
-    "Maven.demo1 [clean].executor": "Run",
-    "Maven.demo1 [install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DELL/IdeaProjects/demo1/src/main/resources/annotationbaseconfiguration",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.annotationbasedconfiguration.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.xmlConfig.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo1 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo1 [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/IdeaProjects/demo1/src/main/resources/annotationbaseconfiguration&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\IdeaProjects\demo1\src\main\resources\annotationbaseconfiguration" />
@@ -190,12 +182,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702470942842</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit baitapday1">
+      <option name="closed" value="true" />
+      <created>1702475806438</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702475806439</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="commit baitapday1" />
     <option name="LAST_COMMIT_MESSAGE" value="commit baitapday1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/Configuration.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
