@@ -10,6 +10,7 @@ import pojobeans.AccountService;
 public class AccountService2Impl implements AccountService {
     @Autowired
     private AccountRepsitory accountRepsitory;
+
     public void setAccountRepsitory(AccountRepsitory accountRepsitory) {
         this.accountRepsitory = accountRepsitory;
     }

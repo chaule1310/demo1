@@ -6,19 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0f7f1a3f-4836-4c5d-aaca-a7860a2027af" name="Changes" comment="commit baitapday1">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/BeansLifeCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/BeansLifeCycleAnnotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/Maintest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinjection/AccountServiceConstructorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinjection/AccountServiceSetterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinjection/MainContructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinjection/MainSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beanlifecycle/beans-annocation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beanlifecycle/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dependencyinjection/beans-constructor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dependencyinjection/beans-setter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/BeanConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/MainConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/AccountService2Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/AccountService2Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/Configuration.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +52,8 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.MainAccount.executor": "Run",
+    "Application.MainConfiguration.executor": "Run",
+    "Application.MainContructor.executor": "Run",
     "Application.MainSetter.executor": "Run",
     "Application.MainTest.executor": "Run",
     "Application.Maintest.executor": "Run",
@@ -94,13 +88,26 @@
       <recent name="annotationbasedconfiguration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Maintest">
+  <component name="RunManager" selected="Application.MainContructor">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beanlifecycle.Main" />
       <module name="demo1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="beanlifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainConfiguration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotationbasedconfiguration.MainConfiguration" />
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotationbasedconfiguration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,26 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="annotationbasedconfiguration.MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotationbasedconfiguration.MainTest" />
-      <module name="demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="annotationbasedconfiguration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainContructor" />
+        <item itemvalue="Application.MainSetter" />
+        <item itemvalue="Application.MainConfiguration" />
         <item itemvalue="Application.Maintest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainSetter" />
-        <item itemvalue="Application.MainContructor" />
-        <item itemvalue="Application.annotationbasedconfiguration.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702638093142</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit baitapday1">
+      <option name="closed" value="true" />
+      <created>1702649230535</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702649230536</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
