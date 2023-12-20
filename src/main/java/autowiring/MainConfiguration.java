@@ -1,4 +1,4 @@
-package annotationbasedconfiguration;
+package autowiring;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import pojobeans.AccountService;
